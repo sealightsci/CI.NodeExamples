@@ -1,0 +1,27 @@
+{
+  "name": "calculator",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "react-scripts": "1.0.0"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
+  }
+}
