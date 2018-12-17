@@ -1,0 +1,32 @@
+<table>
+  <tr>
+    <td colspan="4"><input type="text" [(ngModel)]="question" id="question" class="input"></td>
+    <td colspan="4"><input type="text" [(ngModel)]="answer" id="answer" class="input"></td>
+  </tr>
+  <tr>
+    <td width="45"><button id="7" class="button" (click)="handleClick('7')">7</button></td>
+    <td width="45"><button id="8" class="button" (click)="handleClick('8')">8</button></td>
+    <td width="45"><button id="9" class="button" (click)="handleClick('9')">9</button></td>
+    <td width="45"><button id="add" class="button" (click)="handleClick('+')">+</button></td>
+  </tr>
+  <tr>
+    <td width="45"><button id="4" class="button" (click)="handleClick('4')">4</button></td>
+    <td width="45"><button id="5" class="button" (click)="handleClick('5')">5</button></td>
+    <td width="45"><button id="6" class="button" (click)="handleClick('6')">6</button></td>
+    <td width="45"><button id="sub" class="button" (click)="handleClick('-')">-</button></td>
+  </tr>
+  <tr>
+    <td width="45"><button id="1" class="button" (click)="handleClick('1')">1</button></td>
+    <td width="45"><button id="2" class="button" (click)="handleClick('2')">2</button></td>
+    <td width="45"><button id="3" class="button" (click)="handleClick('3')">3</button></td>
+    <td width="45"><button id="multiple" class="button" (click)="handleClick('*')">*</button></td>
+  </tr>
+  <tr>
+    <td width="45"><button id="0" class="button" (click)="handleClick('0')">0</button></td>
+    <td width="45"><button id="cls" class="button" (click)="handleClick('cls')">cls</button></td>
+    <td width="45"><button id="divide" class="button" (click)="handleClick('/')">/</button></td>
+    <td width="45"><button id="equal" class="button" (click)="handleClick('=')">=</button></td>
+  </tr>
+</table>
+
+
